@@ -1,17 +1,40 @@
 header {
   display: block;
-  background-color: black;
+  background-color: #ffffff;
   width: 100%;
-  height: 50px;
-  color: white;
+  height: 96px;
+  color: #515151;
+  position: absolute;
+  top: 0;
 }
 #headerButtons {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  float: left;
+  padding: 20px;
 }
 .navButton {
+  float: left;
+  padding: 20px;
+  font-size: 12px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.navButton a {
+  text-decoration: none;
+  color: #515151;
+}
+.navButton:hover a, .navButton:focus a {
+  color: #d20645;
+}
+.navInfo {
   float: right;
+  font-size: 11px;
+  width: 400px;
+  padding: 6px;
+}
+.homePage {
+  margin-top: 96px;
 }
 footer {
   display: block;
