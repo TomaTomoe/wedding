@@ -13,10 +13,11 @@ class NavBar extends Component {
           <li className="navButton"><Link to="">GALLERY</Link></li>
           <li className="navButton"><Link to="">CONTACTS</Link></li>
         </ul>
+        <div className="logoBg"><img className="logo" src="../images/logo.png" alt="Logotype" /> </div>
         <div className="navInfo">
-          <p><Icon name='home' /> Adress: </p>
-          <p><span>@</span> Phone: </p>
-          <p><span>@</span> Working Hours: </p>
+          <p><Icon name='home' className="iconColor" /> Adress: </p>
+          <p><Icon name='phone' className="iconColor" flipped='horisontally' /> Phone: </p>
+          <p><Icon name='clock' className="iconColor" /> Working Hours: </p>
         </div>
       </header>
     )
