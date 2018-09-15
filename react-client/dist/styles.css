@@ -9,6 +9,7 @@ header {
   color: #515151;
   position: absolute;
   top: 0;
+  z-index: 10;
 }
 #headerButtons {
   list-style-type: none;
