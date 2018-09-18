@@ -1,5 +1,4 @@
 body {
-  background: red;
 }
 header {
   display: block;
@@ -7,6 +6,7 @@ header {
   width: 100%;
   height: 96px;
   color: #515151;
+  padding: 0 90px;
   position: absolute;
   top: 0;
   z-index: 10;
@@ -54,6 +54,14 @@ header {
 }
 .homePage {
   margin-top: 96px;
+}
+.outerConteiner {
+  width: 100%;
+  padding: 0 90px;
+}
+.introduction {
+  height:500px;
+  width:100vw;
 }
 footer {
   display: block;

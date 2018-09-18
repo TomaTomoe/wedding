@@ -5,7 +5,14 @@ class HomePage extends Component {
   render() {
     return (
       <div className="homePage">
-        <BannerCarousel />
+        <div className="outerConteiner">
+          <BannerCarousel />
+        </div>
+        <div className="introduction">
+          dfgdghggf
+          lorem
+          
+        </div>
       </div>
     )
   }
