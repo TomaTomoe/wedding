@@ -48,6 +48,7 @@ header {
   font-size: 11px;
   width: 400px;
   padding: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 .iconColor {
   color: #d20645;
@@ -58,10 +59,54 @@ header {
 .outerConteiner {
   width: 100%;
   padding: 0 90px;
+  position: relative;
+  z-index: 2;
 }
 .introduction {
-  height:500px;
-  width:100vw;
+  height: auto;
+  width: 100vw;
+  position: relative;
+  z-index: 0;
+  top: -155px;
+  padding-top: 255px;
+  background: #eee;
+  padding-bottom: 255px;
+  background-image: url('../images/angleBg.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
+}
+.centered {
+  max-width: 1000px;
+  margin: auto;
+}
+.article {
+  max-width: 500px;
+  border-left: 3px solid #d20645;
+  padding-left: 50px;
+  display: inline-block;
+}
+.article h2 {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+.article h3 {
+  font-family: 'Euphoria Script', cursive;
+  font-weight: normal;
+  font-size: 30px;
+  margin: -7px 0 20px;
+}
+.article p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  word-spacing: 8px;
+  margin-bottom: 20px;
+  color: #515151;
+}
+.introImg {
+  float: right;
 }
 footer {
   display: block;
