@@ -23,9 +23,11 @@ class HomePage extends Component {
               <Button content="Read More" />
             </div>
             <picture className="introImg">
-              <img src="../images/photo10.jpg" alt="" />
+              <img src="../images/photo07.jpg" alt="" />
             </picture>
           </div>
+        </section>
+        <section className="blankTriangle">
         </section>
       </div>
     )

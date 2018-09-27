@@ -1,0 +1,18 @@
+#headerButtons {
+  padding: 33px 0;
+}
+.navButton {
+  padding: 20px 10px;
+  font-size: 14px;
+}
+.navInfo {
+  font-size: 12px;
+  width: 350px;
+  padding: 25px;
+}
+.article {
+  margin-left: 50px;
+}
+.introImg img {
+  margin-right: 50px;
+}
