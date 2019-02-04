@@ -23,14 +23,15 @@ header {
   float: left;
   padding: 20px;
   font-size: 16px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   transition: padding 0.5s ease-in-out, font-size 0.5s ease-in-out;
 }
 .navButton a {
   text-decoration: none;
   color: #515151;
 }
-.navButton:hover a, .navButton:focus a {
+.navButton:hover a,
+.navButton:focus a {
   color: #d20645;
 }
 .logoBg {
@@ -52,8 +53,9 @@ header {
   font-size: 14px;
   width: 400px;
   padding: 19px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  transition: padding 0.5s ease-in-out, font-size 0.5s ease-in-out, width 0.5s ease-in-out;
+  font-family: "Montserrat Alternates", sans-serif;
+  transition: padding 0.5s ease-in-out, font-size 0.5s ease-in-out,
+    width 0.5s ease-in-out;
 }
 .iconColor {
   color: #d20645;
@@ -80,30 +82,33 @@ header {
 .centered {
   max-width: 1200px;
   margin: auto;
+  clear: both;
+}
+.borderLeft {
+  border-left: 3px solid #d20645;
 }
 .article {
   max-width: 550px;
-  border-left: 3px solid #d20645;
   padding-left: 50px;
   display: inline-block;
   margin-left: 0px;
   transition: margin-left 0.5s ease-in-out;
 }
 .article h2 {
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 42px;
   margin-bottom: 0px;
 }
 .article h3 {
-  font-family: 'Euphoria Script', cursive;
+  font-family: "Euphoria Script", cursive;
   font-weight: normal;
   font-size: 36px;
   margin: -7px 0 20px;
 }
 .article p {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   word-spacing: 8px;
   margin-bottom: 20px;
   color: #515151;
@@ -145,7 +150,7 @@ header {
   color: #ffffff;
   font-size: 18px;
   text-align: center;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   vertical-align: middle;
   line-height: 48px;
 }
@@ -162,10 +167,85 @@ header {
   height: 300px;
   position: relative;
   top: -455px;
-  background-image: url('../images/angleBg.png');
+  background-image: url("../images/angleBg.png");
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-size: contain;
+}
+.letter-A {
+  font-family: "Philosopher", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 210px;
+  color: #d20645;
+  text-align: center;
+  position: relative;
+  top: -700px;
+}
+.letter-A > span {
+  line-height: initial;
+}
+.height100percent {
+  height: 100%;
+}
+.paddingAround {
+  padding: 35px;
+}
+.numberCircle {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: #d20645;
+  color: #fff;
+  font-family: "Euphoria Script", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+.borderBottom {
+  border-bottom: 3px solid #d20645;
+}
+.noPaddingLeft {
+  padding-left: 0;
+}
+.textToLeft {
+  text-align: left;
+}
+.textToRight {
+  text-align: right;
+}
+.services {
+  text-align: center;
+  margin-top: -680px;
+  padding-bottom: 100px;
+}
+.services h2 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin-bottom: 0px;
+}
+.services h3 {
+  font-family: "Euphoria Script", cursive;
+  font-weight: normal;
+  font-size: 36px;
+  margin: -7px 0 20px;
+}
+.services h4 {
+  font-family: "Euphoria Script", cursive;
+  font-size: 40px;
+  font-weight: normal;
+}
+.specialOffer {
+  height: 800px;
+  width: 100%;
+}
+.specialOfferBg {
+  background-image: url("../images/wedding12.jpg");
+  background-size: cover;
+  background-position: center;
 }
 footer {
   display: block;
